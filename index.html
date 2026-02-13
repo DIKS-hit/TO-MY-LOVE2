@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Beautiful Memories 💕</title>
+    <link rel="stylesheet" href="memories.css">
+</head>
+
+<body>
+    <!-- Back Button -->
+    <button class="back-btn" onclick="window.location.href='index.html'">← Back to Story</button>
+
+    <!-- Page Header -->
+    <div class="memories-header">
+        <h1 class="memories-title">Our Beautiful Journey Together</h1>
+        <p class="memories-subtitle">Every moment with you is a treasure 💕</p>
+    </div>
+
+    <!-- ===== PART 1: PROFESSIONAL CAROUSEL ===== -->
+    <section class="carousel-section">
+        <h2 class="section-title">Our Special Moments</h2>
+
+        <div class="carousel-container">
+            <!-- Carousel Wrapper -->
+            <div class="carousel-wrapper" id="carouselWrapper">
+
+                <!-- Slide 1 -->
+                <!-- Add Photo 1: First special photo for carousel -->
+                <div class="carousel-slide active">
+                    <div class="carousel-image-container">
+                        <img src="/photos/1.jpg" alt="Our Memory 1" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">The first time I saw you... my world changed forever 💕</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <!-- Add Photo 2: Second special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="/photos/2.jpg" alt="Our Memory 2" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">Every moment with you is a treasure I'll cherish forever</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <!-- Add Photo 3: Third special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="/photos/3.jpg" alt="Our Memory 3" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">Your smile is my favorite view in the whole world</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <!-- Add Photo 4: Fourth special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="photos/4.jpg" alt="Our Memory 4" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">Together is my favorite place to be 💖</p>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <!-- Add Photo 5: Fifth special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="/photos/5.jpg" alt="Our Memory 5" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">Forever isn't long enough with you by my side</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <!-- Add Photo 6: Sixth special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="photos/6.jpg" alt="Our Memory 6" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">You are my today and all of my tomorrows 💕</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <!-- Add Photo 6: Sixth special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="photos/7.jpg" alt="Our Memory 6" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">You are my today and all of my tomorrows 💕</p>
+                    </div>
+                </div>
+
+                <!-- Slide 6 -->
+                <!-- Add Photo 6: Sixth special photo for carousel -->
+                <div class="carousel-slide">
+                    <div class="carousel-image-container">
+                        <img src="photos/8.jpg" alt="Our Memory 6" class="carousel-image">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="caption-text">You are my today and all of my tomorrows 💕</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button class="carousel-btn prev-btn" id="prevBtn">❮</button>
+            <button class="carousel-btn next-btn" id="nextBtn">❯</button>
+
+            <!-- Progress Dots -->
+            <div class="carousel-dots" id="carouselDots"></div>
+
+            <!-- Play/Pause Button -->
+            <button class="play-pause-btn" id="playPauseBtn">⏸</button>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="section-divider">
+        <div class="divider-hearts">💕 💖 💕</div>
+    </div>
+
+    <!-- ===== PART 2: HEART-SHAPED PHOTO GALLERY ===== -->
+    <section class="heart-gallery-section">
+        <h2 class="section-title">More Precious Moments</h2>
+        <p class="gallery-subtitle">Click any photo to view full size</p>
+
+        <div class="heart-gallery" id="heartGallery">
+
+            <!-- Add Photo 7: Heart gallery photo 1 -->
+            <div class="heart-photo" data-index="0">
+                <img src="/photos/A7.jpg" alt="Memory 7">
+            </div>
+
+            <!-- Add Photo 8: Heart gallery photo 2 -->
+            <div class="heart-photo" data-index="1">
+                <img src="/photos/A8.jpg" alt="Memory 8">
+            </div>
+
+            <!-- Add Photo 9: Heart gallery photo 3 -->
+            <div class="heart-photo" data-index="2">
+                <img src="/photos/A9.jpg" alt="Memory 9">
+            </div>
+
+            <!-- Add Photo 10: Heart gallery photo 4 -->
+            <div class="heart-photo" data-index="3">
+                <img src="/photos/A10.jpg" alt="Memory 10">
+            </div>
+
+            <!-- Add Photo 11: Heart gallery photo 5 -->
+            <div class="heart-photo" data-index="4">
+                <img src="/photos/A11.jpg" alt="Memory 11">
+            </div>
+
+            <!-- Add Photo 12: Heart gallery photo 6 -->
+            <div class="heart-photo" data-index="5">
+                <img src="/photos/A12.jpg" alt="Memory 12">
+            </div>
+
+            <!-- Add Photo 13: Heart gallery photo 7 -->
+            <div class="heart-photo" data-index="6">
+                <img src="/photos/A13.jpg" alt="Memory 13">
+            </div>
+
+            <!-- Add Photo 14: Heart gallery photo 8 -->
+            <div class="heart-photo" data-index="7">
+                <img src="/photos/A14.jpg" alt="Memory 14">
+            </div>
+
+            <!-- Add Photo 15: Heart gallery photo 9 -->
+            <div class="heart-photo" data-index="8">
+                <img src="/photos/A15.jpg" alt="Memory 15">
+            </div>
+
+            <!-- Add Photo 16: Heart gallery photo 10 -->
+            <div class="heart-photo" data-index="9">
+                <img src="/photos/A16.jpg" alt="Memory 16">
+            </div>
+
+            <!-- Add Photo 17: Heart gallery photo 11 -->
+            <div class="heart-photo" data-index="10">
+                <img src="/photos/A17.jpg" alt="Memory 17">
+            </div>
+
+            <!-- Add Photo 18: Heart gallery photo 12 -->
+            <div class="heart-photo" data-index="11">
+                <img src="/photos/A18.jpg" alt="Memory 18">
+            </div>
+
+            <!-- Add Photo 19: Heart gallery photo 13 -->
+            <div class="heart-photo" data-index="12">
+                <img src="/photos/A19.jpg" alt="Memory 19">
+            </div>
+
+            <!-- Add Photo 20: Heart gallery photo 14 -->
+            <div class="heart-photo" data-index="13">
+                <img src="/photos/A20.jpg" alt="Memory 20">
+            </div>
+
+            <!-- Add Photo 21: Heart gallery photo 15 -->
+            <div class="heart-photo" data-index="14">
+                <img src="/photos/A21.jpg" alt="Memory 21">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== LIGHTBOX FOR FULL SIZE IMAGES ===== -->
+    <div class="lightbox hidden" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">✕</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">❮</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">❯</button>
+        <div class="lightbox-content">
+            <img src="" alt="Full size photo" id="lightboxImage">
+        </div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+
+    <!-- Final Message -->
+    <div class="final-message">
+        <p class="final-text">These are just a few of the countless moments that make my heart full 💕</p>
+        <p class="final-text">Here's to creating infinite more memories together, forever...</p>
+        <div class="signature">With all my love, always ∞</div>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts-bg"></div>
+
+    <script src="memories.js"></script>
+</body>
+
+</html>
